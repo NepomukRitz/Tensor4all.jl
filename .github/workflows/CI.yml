@@ -35,7 +35,7 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
 
-      - uses: julia-actions/cache@v2
+      - uses: julia-actions/cache@v3
 
       # HDF5 is loaded at runtime from HDF5.jl (no system installation needed)
 
